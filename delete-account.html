@@ -3,64 +3,69 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Recall - Delete Account</title>
+  <title>Recall - Delete Account & Data</title>
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0B0E14; color: #E2E8F0; line-height: 1.7; padding: 24px; max-width: 720px; margin: 0 auto; }
     h1 { font-size: 28px; font-weight: 800; color: #FFFFFF; margin-bottom: 8px; }
     h2 { font-size: 18px; font-weight: 700; color: #FFFFFF; margin-top: 32px; margin-bottom: 12px; }
     p, li { font-size: 15px; color: #94A3B8; margin-bottom: 12px; }
-    .updated { font-size: 13px; color: #64748B; margin-bottom: 32px; }
+    .subtitle { font-size: 13px; color: #64748B; margin-bottom: 32px; }
     strong { color: #FFFFFF; }
     ol { padding-left: 20px; }
     li { margin-bottom: 8px; }
     a { color: #8B5CF6; text-decoration: none; }
     a:hover { text-decoration: underline; }
+    .email-btn { display: inline-block; background: #8B5CF6; color: #FFFFFF; padding: 14px 28px; border-radius: 9999px; font-size: 16px; font-weight: 600; margin-top: 12px; margin-bottom: 12px; }
+    .email-btn:hover { opacity: 0.9; text-decoration: none; }
     .warning { background: rgba(239, 68, 68, 0.15); border-radius: 12px; padding: 16px; margin-top: 24px; }
     .warning p { color: #EF4444; margin-bottom: 0; }
-    .contact { background: rgba(139, 92, 246, 0.1); border-radius: 12px; padding: 16px; margin-top: 24px; }
-    .contact p { margin-bottom: 0; }
+    .card { background: #151A23; border-radius: 12px; padding: 20px; margin-top: 16px; }
+    .divider { border: none; border-top: 1px solid #2A3441; margin: 32px 0; }
   </style>
 </head>
 <body>
-  <h1>Delete Your Account</h1>
-  <p class="updated">Recall - Study Tracker App</p>
+  <h1>Delete Account & Data</h1>
+  <p class="subtitle">Recall - Study Tracker App</p>
 
-  <h2>How to Delete Your Account</h2>
-  <p>You can delete your account and all associated data directly from the app:</p>
+  <h2>Option 1: Delete from the App</h2>
   <ol>
-    <li>Open <strong>Recall</strong> and sign in to your account</li>
-    <li>Go to <strong>Settings</strong> (gear icon in the bottom right)</li>
+    <li>Open <strong>Recall</strong> and sign in</li>
+    <li>Go to <strong>Settings</strong> (gear icon)</li>
     <li>Tap <strong>Account</strong></li>
     <li>Tap <strong>Delete Account</strong></li>
-    <li>Confirm the deletion when prompted</li>
+    <li>Confirm when prompted</li>
   </ol>
+
+  <hr class="divider">
+
+  <h2>Option 2: Request Deletion by Email</h2>
+  <p>If you cannot access the app, you can request account and data deletion by emailing us. Include the email address associated with your Recall account.</p>
+  <a href="mailto:recall.hotline@gmail.com?subject=Account%20Deletion%20Request&body=Please%20delete%20my%20Recall%20account%20and%20all%20associated%20data.%0A%0AMy%20account%20email%3A%20%5Byour%20email%20here%5D" class="email-btn">Request Account Deletion</a>
+  <p>We will process your request and delete all data within 7 business days. You will receive a confirmation email once complete.</p>
+
+  <hr class="divider">
 
   <h2>What Data is Deleted</h2>
-  <p>When you delete your account, the following data is <strong>permanently deleted</strong>:</p>
-  <ol>
-    <li><strong>Account data</strong> — your name, email address, and authentication credentials</li>
-    <li><strong>Study data</strong> — all subjects, chapters, flashcards, past papers, study sessions, and revision schedules</li>
-    <li><strong>Timer data</strong> — all timer sessions and study time records</li>
-    <li><strong>AI-generated content</strong> — all AI flashcards and AI insights</li>
-    <li><strong>Preferences</strong> — theme, timezone, weekly goal, and app settings</li>
-    <li><strong>Purchase history</strong> — credit balance and subscription status (note: active subscriptions must be cancelled separately through Google Play)</li>
-  </ol>
+  <div class="card">
+    <p><strong>All of the following is permanently deleted:</strong></p>
+    <ol>
+      <li>Account data (name, email, credentials)</li>
+      <li>Study data (subjects, chapters, flashcards, past papers, sessions, revisions)</li>
+      <li>Timer data (all study time records)</li>
+      <li>AI-generated content (flashcards and insights)</li>
+      <li>Preferences (theme, timezone, weekly goal)</li>
+      <li>Credit balance and purchase history</li>
+    </ol>
+  </div>
 
   <div class="warning">
-    <p><strong>This action is permanent and cannot be undone.</strong> We recommend exporting your data from Settings before deleting your account.</p>
+    <p><strong>This action is permanent and cannot be undone.</strong> We recommend exporting your data from Settings before requesting deletion.</p>
   </div>
 
   <h2>Cancel Your Subscription</h2>
-  <p>If you have an active Recall+ subscription, deleting your account does <strong>not</strong> automatically cancel it. To avoid being charged, cancel your subscription first:</p>
-  <ol>
-    <li>Open the <strong>Google Play Store</strong> app</li>
-    <li>Tap your profile icon → <strong>Payments & subscriptions</strong> → <strong>Subscriptions</strong></li>
-    <li>Find <strong>Recall+</strong> and tap <strong>Cancel subscription</strong></li>
-  </ol>
+  <p>Deleting your account does <strong>not</strong> cancel active subscriptions. Cancel first via Google Play Store → Payments & subscriptions → Subscriptions → Recall+.</p>
 
-  <div class="contact">
-    <p>Need help? Contact us at <a href="mailto:recall.hotline@gmail.com">recall.hotline@gmail.com</a></p>
-  </div>
+  <p style="margin-top: 32px; font-size: 13px; color: #64748B;">Contact: <a href="mailto:recall.hotline@gmail.com">recall.hotline@gmail.com</a></p>
 </body>
 </html>
